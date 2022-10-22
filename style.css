@@ -1,0 +1,46 @@
+#main1{
+    width: 100%;
+   
+}
+/* Partie menu  */
+.containerMenu{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border: #2A7282 solid 1px;
+    position: relative;
+    background-color: white;
+}
+.imgLogo{
+    width: 70%;
+    margin: 15%;
+}
+.menu{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1px;
+}
+.boutonMenu{
+    width: 100%;
+    height: 40px;
+    background-color: #2A7282;
+    color: white;
+    box-shadow: 5px 5px 5px #2A7282;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Partie main */
+#imgHeader{
+    height: 20px;
+    position: absolute;
+}
+.boutonMenu a{
+    text-decoration: none;
+    color: white;
+}
+
